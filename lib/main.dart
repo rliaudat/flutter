@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_widget_app/config/router/app_router.dart';
 import 'package:flutter_widget_app/config/theme/app_theme.dart';
 
+
 void main () {
   runApp(const MainApp());
 }
@@ -14,7 +15,7 @@ class MainApp extends StatelessWidget {
     return  MaterialApp.router(
       routerConfig: appRouter,
       debugShowCheckedModeBanner: false,
-      theme: AppTheme(selectedColor: 0).getTheme(),
+      theme: AppTheme(selectedColor: 1).getTheme(),
       );
     
   }
