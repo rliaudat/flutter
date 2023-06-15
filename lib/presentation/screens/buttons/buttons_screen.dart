@@ -66,9 +66,9 @@ class CustomButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Material(
+    return const Material(
       color: Colors.amber,
-      child: const Padding(
+      child: Padding(
       padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
       child: Text ('Hola mundo'))
       );
