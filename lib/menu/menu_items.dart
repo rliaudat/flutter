@@ -50,5 +50,11 @@ MenuItem (
     icon: Icons.check_box_outline_blank_rounded
   ),
 
+MenuItem (
+    title: 'UI Controls + Titles',
+    subtitle: 'Controles en flutter',
+    link: '/ui-controls',
+    icon: Icons.car_rental_outlined
+  ),
 
 ];
