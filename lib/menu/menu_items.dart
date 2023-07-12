@@ -57,4 +57,11 @@ MenuItem (
     icon: Icons.car_rental_outlined
   ),
 
+MenuItem (
+    title: 'Intro app',
+    subtitle: 'tutorial',
+    link: '/tutorial',
+    icon: Icons.accessibility_new_rounded
+  ),
+
 ];
